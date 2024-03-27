@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patients List</title>
+  <link href="styles/StyleSheet.css" rel="stylesheet" />
+  <link href="styles/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+  <h1>Patients List</h1>
+  <table id="patientsTable" class="patients-table">
+    <thead>
+      <tr>
+        <th> </th>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Date of Birth</th>
+        <th>Mobile Number</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <br/>
+  <button onclick="document.getElementById('form-dialog').style.display = 'block'">Add Patient</button>
+
+  <div id="form-dialog" class="form-dialog" style="display:none">
+    <div class="form-container">
+      <div id="close-dialog" class="close-dialog" onclick="closeDialog()">X</div>
+      <h2>Add Patient</h2>
+      <form id="addPatientForm" class="form" onsubmit="savePatient()">
+        <label for="id">Id:</label>
+        <input type="text" id="id" name="id" required maxlength="9" pattern="[0-9]{2,9}" title="Id should only contain numbers">
+        <label id="idError" style="display:none" class="error">Wrong Id Format</label>
+        <br><br>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required maxlength="20" pattern="[A-Za-z \-'.]{2,20}" title="firstName should only contain letters"><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required maxlength="20" pattern="[A-Za-z \-'.]{2,20}" title="lastName should only contain letters"><br><br>
+
+        <label for="dateBirth">Date of Birth:</label>
+        <input type="date" id="dateBirth" min="1900-01-01" name="dateBirth" required title="dateBirth should only contain past date"><br><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" maxlength="20" required pattern="[A-Za-z \-'.]{2,20}" title="address should only contain letters"><br><br>
+
+        <label for="house">House Number:</label>
+        <input type="number" id="house" name="house" min="0" max="1000" required title="house number between 0 to 1000"><br><br>
+
+        <label for="city">City:</label>
+        <select id="cityId" name="cityId" required title="cityId must choose">
+        </select>
+        <label id="cityError" style="display:none" class="error">Need to select city</label><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" maxlength="10" pattern="0[23489]-?\d{7}" title="phone not in correct format"><br><br>
+
+        <label for="mobilePhone">Mobile Phone:</label>
+        <input type="tel" id="mobilePhone" name="mobilePhone" maxlength="11" required pattern="05\d-?\d{7}" title="phone not in correct format"><br><br>
+
+        <button type="submit">Add</button>
+        <button type="button" onclick="closeDialog()">Cancel</button>
+      </form>
+    </div>
+  </div>
+
+  <P>
+    There are <span id="patientsCount"></span> patients with out vaccinations.
+  </P>
+
+  <script>
+    const addPatientForm = document.querySelector('#addPatientForm');
+
+    async function fetchPatients() {
+      try {
+        const response = await fetch('api/Patients');
+        const patients = await response.json();
+
+        const tableBody = document.querySelector('#patientsTable tbody');
+        tableBody.innerHTML = '';
+
+        patients.forEach(patient => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+                            <td><i class="fa fa-edit" onclick="editPatient(${patient.id})"></1></td>
+                            <td>${patient.id}</td>
+                            <td>${patient.firstName}</td>
+                            <td>${patient.lastName}</td>
+                            <td>${new Date(patient.dateBirth).toLocaleDateString("he-IL")}</td>
+                            <td>${patient.mobilePhone}</td>
+                        `;
+          tableBody.appendChild(row);
+        });
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    }
+
+    async function fetchCities() {
+      try {
+        const response = await fetch('api/Cities');
+        const cities = await response.json();
+
+        const cityDropdown = document.getElementById('cityId');
+        const option = document.createElement('option');
+        option.value = 0;
+        option.textContent = "Select City";
+
+        cityDropdown.appendChild(option);
+
+        cities.forEach(city => {
+          const option = document.createElement('option');
+          option.value = city.id;
+          option.textContent = city.name;
+          cityDropdown.appendChild(option);
+        });
+      } catch (error) {
+        console.error('Error fetching cities:', error);
+      }
+    }
+
+    async function fetchPationsWithNoVaccinationsCount() {
+      try {
+        const response = await fetch('api/Reports');
+        const count = await response.json();
+        
+        document.getElementById('patientsCount').innerHTML = count;
+      } catch (error) {
+        console.error('Error fetching cities:', error);
+      }
+    }
+    async function savePatient() {
+      window.event.preventDefault();
+
+      if (!isValidIsraeliID(document.querySelector('#id').value)) {
+        document.querySelector('#idError').style.display = 'block';
+        return;
+      }
+      else {
+        document.querySelector('#idError').style.display = 'none';
+      }
+
+      if (document.querySelector('#cityId').value <= 0) {
+        document.querySelector('#cityError').style.display = 'block';
+        return;
+      }
+      else {
+        document.querySelector('#cityError').style.display = 'none';
+      }
+
+      const formData = new FormData(addPatientForm);
+
+      try {
+        const response = await fetch('api/Patients', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(Object.fromEntries(formData))
+        });
+
+        if (response.ok) {
+          closeDialog();
+          fetchPatients();
+          fetchPationsWithNoVaccinationsCount();
+          addPatientForm.reset();
+        } else {
+          //const err = await response.json();
+          alert('Error adding patient');
+        }
+      } catch (error) {
+        console.error('Error adding patient:', error);
+      }
+    }
+
+    function editPatient(patientId) {
+      window.location.href = `patient.html?id=${patientId}`;
+    };
+
+    function closeDialog() {
+      document.querySelector('#form-dialog').style.display = 'none';
+    }
+
+    function isValidIsraeliID(id) {
+      var id = String(id).trim();
+      if (id.length > 9 || id.length < 2 || isNaN(id)) return false;
+
+      // Pad string with zeros up to 9 digits
+      id = id.length < 9 ? ("00000000" + id).slice(-9) : id;
+
+      return Array
+        .from(id, Number)
+        .reduce((counter, digit, i) => {
+          const step = digit * ((i % 2) + 1);
+          return counter + (step > 9 ? step - 9 : step);
+        }) % 10 === 0;
+    }
+
+    fetchPatients();
+    fetchCities();
+    fetchPationsWithNoVaccinationsCount();
+
+    document.querySelector('#dateBirth').max = new Date().toISOString().split("T")[0];
+  </script>
+</body>
+</html>

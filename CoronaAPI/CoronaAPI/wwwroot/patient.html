@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Details</title>
+  <link href="styles/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+  <input type="button" value="Patient list" onclick="window.location.href='patients.html'" />
+  <h1>Patient Details</h1>
+  <div style="display:table-row">
+    <div style="display:table-cell; width:600px;">
+      <div id="patientDetails"></div>
+    </div>
+    <div style="display:table-cell">
+      <form id="uploadImageForm" onsubmit="UploadImage()">
+          <div>
+            <b>select image to upload:</b> <input id="ImageFile" type="file" name="FileUpload.FormFile" accept="image/png"/>
+          </div>
+          <div>
+            <button type="submit">Upload</button>
+          </div>
+          <div style="margin-top:15px">
+            <output name="result"></output>
+          </div>
+      </form>
+      <img id="PatientImage" style="width:150px; height:200px;" />
+    </div>
+  </div>
+    <br />
+    </br>
+    <h2>Patient Infections</h2>
+    <div id="patientInfections">
+      <form id="addInfectionForm" onsubmit="saveInfection(this)">
+        <p><strong>Date Positive:</strong> <input type="date" id="datePositive" name="datePositive" required></p>
+        <p><strong>Date Recovery:</strong> <input type="date" id="dateRecovery" name="dateRecovery"></p>
+        <p id="dateError" style="display:none" class="error">Date positive can't be greater then date recovery</p>
+        <button type="submit">Save</button>
+      </form>
+    </div>
+    <br />
+
+    <h2>Patient Vaccinations</h2>
+    <div id="patientVaccinations"></div>
+    <br />
+    <button onclick="document.getElementById('form-dialog').style.display = 'block'">Add Vaccination</button>
+    <div id="form-dialog" class="form-dialog" style="display:none">
+      <div class="form-container">
+        <div id="close-dialog" class="close-dialog" onclick="closeDialog()">X</div>
+        <h2>Add Patient Vaccinations</h2>
+        <form id="addVaccinationForm" onsubmit="savePatientVaccination()">
+          <label for="vaccinationDate">Vaccination Date:</label>
+          <input type="date" id="vaccinationDate" name="vaccinationDate" required><br><br>
+
+          <label for="manufactor">Manufactor:</label>
+          <select id="manufactor" name="manufactorId" required>
+          </select><br><br>
+          <input type="submit" value="Add Vaccination" />
+          <button type="button" onclick="closeDialog()">Cancel</button>
+        </form>
+      </div>
+    </div>
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const patientId = urlParams.get('id');
+
+      async function fetchPatientDetails() {
+        try {
+          const response = await fetch(`api/Patients/${patientId}`);
+          const patient = await response.json();
+
+          const patientDetailsContainer = document.getElementById('patientDetails');
+          patientDetailsContainer.innerHTML = `
+                                          <p><strong>ID:</strong> ${patient.id}</p>
+                                          <p><strong>First Name:</strong> ${patient.firstName}</p>
+                                          <p><strong>Last Name:</strong> ${patient.lastName}</p>
+                                          <p><strong>Date of Birth:</strong> ${new Date(patient.dateBirth).toLocaleDateString("he-IL")}</p>
+                                          <p><strong>Address:</strong> ${patient.address}</p>
+                                          <p><strong>City:</strong> ${patient.city.name}</p>
+                                          <p><strong>Phone Number:</strong> ${patient.phone}</p>
+                                          <p><strong>Mobile Number:</strong> ${patient.mobilePhone}</p>
+                                      `;
+        } catch (error) {
+          console.error('Error fetching patient details:', error);
+        }
+      }
+
+      async function fetchPatientInfections() {
+        try {
+          const response = await fetch(`api/PatientInfections/${patientId}`);
+          const infection = await response.json();
+
+          const patientInfectionsContainer = document.getElementById('patientInfections');
+
+          if (response.ok) {
+            document.getElementById("datePositive").value = infection.datePositive.split("T")[0];
+            document.getElementById("dateRecovery").value = infection.dateRecovery.split("T")[0];
+          }
+        } catch (error) {
+          console.error('Error fetching patient infections:', error);
+        }
+      }
+
+      async function fetchPatientVaccinations() {
+        try {
+          const response = await fetch(`api/PatientVaccinations/${patientId}`);
+          const vaccinations = await response.json();
+
+          const patientVaccinationsContainer = document.getElementById('patientVaccinations');
+          if (vaccinations.length > 0) {
+            let vaccinationsHtml = '<table id="patientVaccinationsTable">';
+            vaccinationsHtml += '<thead><tr><th>Manufacturer ID</th><th>Vaccination Date</th></tr></thead>';
+            vaccinationsHtml += '<tbody>';
+            vaccinations.forEach(vaccination => {
+              vaccinationsHtml += `<tr><td>${vaccination.manufactor.name}</td><td>${new Date(vaccination.vaccinationDate).toLocaleDateString("he-IL")}</td></tr>`;
+            });
+            vaccinationsHtml += '</tbody></table>';
+            patientVaccinationsContainer.innerHTML = vaccinationsHtml;
+          } else {
+            patientVaccinationsContainer.innerHTML = '<p class="error">No vaccinations found.</p>';
+          }
+        } catch (error) {
+          console.error('Error fetching patient vaccinations:', error);
+        }
+      }
+
+      async function fetchManufactors() {
+        try {
+          const response = await fetch('api/manufactors');
+          const manufactors = await response.json();
+
+          const manufactorDropdown = document.getElementById('manufactor');
+          manufactors.forEach(manufactor => {
+            const option = document.createElement('option');
+            option.value = manufactor.id;
+            option.textContent = manufactor.name;
+            manufactorDropdown.appendChild(option);
+          });
+        } catch (error) {
+          console.error('Error fetching manufactors:', error);
+        }
+      }
+
+      async function saveInfection(form) {
+        window.event.preventDefault();
+
+        const formData = new FormData();
+
+        if (!validateDateRange(form.datePositive.value, form.dateRecovery.value)) {
+          document.querySelector('#dateError').style.display = 'block';
+          return;
+        }
+        else {
+          document.querySelector('#dateError').style.display = 'none';
+        }
+
+        formData.append('patientId', patientId);
+        formData.append('datePositive', form.datePositive.value);
+        if (form.dateRecovery.value > "") {
+          formData.append('dateRecovery', form.dateRecovery.value);
+        }
+
+        try {
+          const response = await fetch('api/PatientInfections', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(Object.fromEntries(formData))
+          });
+
+          if (response.ok)
+            fetchPatientInfections();
+          else
+            alert('Error adding infection');
+        }
+        catch (error) {
+          console.error('Error adding infection:', error);
+        }
+      }
+
+      async function savePatientVaccination() {
+        window.event.preventDefault();
+
+        let table = document.getElementById("patientVaccinationsTable")
+        if (table && table.rows.length >= 5) {
+          alert("Only 4 vaccinations allowed");
+          return false;
+        }
+
+        const formData = new FormData(addVaccinationForm);
+        formData.append('patientId', patientId);
+
+        try {
+          const response = await fetch('api/PatientVaccinations', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(Object.fromEntries(formData))
+          });
+
+          if (response.ok) {
+            closeDialog();
+            fetchPatientVaccinations();
+            addVaccinationForm.reset();
+          } else {
+            alert('Error adding vaccination');
+          }
+        } catch (error) {
+          console.error('Error adding vaccination:', error);
+        }
+      }
+
+      function closeDialog() {
+        document.querySelector('#form-dialog').style.display = 'none';
+      }
+
+      function validateDateRange(date1, date2) {
+        if (date1 > "" && date2 > "") {
+          var firstDate = new Date(date1);
+          var lastDate = new Date(date2);
+
+          return firstDate <= lastDate;
+        }
+        else {
+          return true;
+        }
+      }
+
+      async function UploadImage() {
+        window.event.preventDefault();
+        var form = document.getElementById('uploadImageForm');
+
+        if (form.ImageFile.files.length == 0) {
+          return;
+        }
+        const formData = new FormData();
+        formData.append('id', patientId);
+        formData.append('imageFile', form.ImageFile.files[0]);
+
+        try {
+          const response = await fetch(`api/PatientImage`, {
+            method: 'POST',
+            body: formData
+          });
+
+          
+          if (!response.ok) {
+            alert("error uploading file");
+          }
+
+          const data = await response.json();
+          console.log('Image uploaded successfully:', data.FilePath);
+          loadPatientImage();
+        } catch (error) {
+          alert("error uploading file")
+        }
+      }
+
+      function loadPatientImage() {
+        document.getElementById("PatientImage").src = `/UploadedImages/${patientId}.png`
+      }
+      
+      fetchPatientDetails();
+      fetchPatientInfections();
+      fetchPatientVaccinations();
+      fetchManufactors();
+      loadPatientImage();
+
+      document.querySelector('#datePositive').max = new Date().toISOString().split("T")[0];
+      document.querySelector('#dateRecovery').max = new Date().toISOString().split("T")[0];
+      document.querySelector('#vaccinationDate').max = new Date().toISOString().split("T")[0];
+    </script>
+</body>
+</html>
