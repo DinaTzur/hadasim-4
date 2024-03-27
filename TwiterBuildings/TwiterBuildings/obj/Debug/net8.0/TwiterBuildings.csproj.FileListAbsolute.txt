@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\bin\Debug\net8.0\TwiterBuildings.exe
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\bin\Debug\net8.0\TwiterBuildings.deps.json
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\bin\Debug\net8.0\TwiterBuildings.runtimeconfig.json
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\bin\Debug\net8.0\TwiterBuildings.dll
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\bin\Debug\net8.0\TwiterBuildings.pdb
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\obj\Debug\net8.0\TwiterBuildings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\obj\Debug\net8.0\TwiterBuildings.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\obj\Debug\net8.0\TwiterBuildings.AssemblyInfo.cs
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\obj\Debug\net8.0\TwiterBuildings.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\obj\Debug\net8.0\TwiterBuildings.dll
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\obj\Debug\net8.0\refint\TwiterBuildings.dll
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\obj\Debug\net8.0\TwiterBuildings.pdb
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\obj\Debug\net8.0\TwiterBuildings.genruntimeconfig.cache
+C:\Users\user\source\repos\TwiterBuildings\TwiterBuildings\obj\Debug\net8.0\ref\TwiterBuildings.dll
