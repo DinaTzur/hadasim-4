@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|c:\\users\\user\\documents\\github\\hadasim-4\\coronaapi\\coronaapi\\bl\\resultsenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|solutionrelative:coronaapi\\bl\\resultsenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|c:\\users\\user\\documents\\github\\hadasim-4\\coronaapi\\coronaapi\\bl\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|solutionrelative:coronaapi\\bl\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|c:\\users\\user\\documents\\github\\hadasim-4\\coronaapi\\coronaapi\\wwwroot\\patients.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|solutionrelative:coronaapi\\wwwroot\\patients.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ResultsEnum.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\BL\\ResultsEnum.cs",
+              "RelativeDocumentMoniker": "CoronaAPI\\BL\\ResultsEnum.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\BL\\ResultsEnum.cs",
+              "RelativeToolTip": "CoronaAPI\\BL\\ResultsEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:53:42.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\BL\\Result.cs",
+              "RelativeDocumentMoniker": "CoronaAPI\\BL\\Result.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\BL\\Result.cs",
+              "RelativeToolTip": "CoronaAPI\\BL\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:53:02.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "patients.html",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\patients.html",
               "RelativeDocumentMoniker": "CoronaAPI\\wwwroot\\patients.html",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\patients.html",
               "RelativeToolTip": "CoronaAPI\\wwwroot\\patients.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-03-28T11:09:14.244Z",
               "EditorCaption": ""
