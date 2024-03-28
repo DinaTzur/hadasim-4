@@ -12,6 +12,7 @@ namespace CoronaAPI.BL
             _context = context;
         }
 
+        //Returning comments from normality tests
         public async Task <Result<Patient>> CreateAsync(Patient patient) 
         {
             if (await PatientManager.PatientExistsAsync(_context, patient.Id))
@@ -50,16 +51,19 @@ namespace CoronaAPI.BL
             }
         }
 
+        //Display of all patients belonging to the cash register
         public async Task<IEnumerable<Patient>> GetAllPatientsAsync()
         {
             return await PatientManager.GetAllPatientsAsync(_context);
         }
-
+        
+        //Showing a specific patient according to the ID card is the key
         public async Task<Patient?> GetPatientAsync(int id)
         {
             return await PatientManager.GetPatientByIdAsync(_context, id);
         }
 
+        //Updating personal details of a patient
         public async Task<Patient> UpdatePatientAsync(Patient patient, int id)
         {
             if (id != patient.Id)
@@ -73,6 +77,8 @@ namespace CoronaAPI.BL
 
             return await PatientManager.UpdatePatientAsync(_context, patient);
         }
+
+        //Deletion of a patient from the HMO database, including vaccinations and infection
         public async Task DeletePatientAsync(int id)
         {
             Patient? patient= await PatientManager.GetPatientByIdAsync(_context, id);

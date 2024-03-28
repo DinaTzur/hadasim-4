@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|c:\\users\\user\\documents\\github\\hadasim-4\\coronaapi\\coronaapi\\bl\\patientinfectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|solutionrelative:coronaapi\\bl\\patientinfectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|c:\\users\\user\\documents\\github\\hadasim-4\\coronaapi\\coronaapi\\bl\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|solutionrelative:coronaapi\\bl\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|c:\\users\\user\\documents\\github\\hadasim-4\\coronaapi\\coronaapi\\bl\\patientvaccinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|solutionrelative:coronaapi\\bl\\patientvaccinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|c:\\users\\user\\documents\\github\\hadasim-4\\coronaapi\\coronaapi\\wwwroot\\patients.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E4915B2-EA8F-4C3C-9AD3-E59E20DA4748}|CoronaAPI\\CoronaAPI.csproj|solutionrelative:coronaapi\\wwwroot\\patients.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 194,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PatientVaccinationService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\BL\\PatientVaccinationService.cs",
-              "RelativeDocumentMoniker": "CoronaAPI\\BL\\PatientVaccinationService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\BL\\PatientVaccinationService.cs",
-              "RelativeToolTip": "CoronaAPI\\BL\\PatientVaccinationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T09:57:17.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PatientService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\BL\\PatientService.cs",
-              "RelativeDocumentMoniker": "CoronaAPI\\BL\\PatientService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\BL\\PatientService.cs",
-              "RelativeToolTip": "CoronaAPI\\BL\\PatientService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T09:57:16.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PatientInfectionService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\BL\\PatientInfectionService.cs",
-              "RelativeDocumentMoniker": "CoronaAPI\\BL\\PatientInfectionService.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\BL\\PatientInfectionService.cs",
-              "RelativeToolTip": "CoronaAPI\\BL\\PatientInfectionService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T09:57:15.239Z",
+              "Title": "patients.html",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\patients.html",
+              "RelativeDocumentMoniker": "CoronaAPI\\wwwroot\\patients.html",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\patients.html",
+              "RelativeToolTip": "CoronaAPI\\wwwroot\\patients.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-28T11:09:14.244Z",
               "EditorCaption": ""
             }
           ]

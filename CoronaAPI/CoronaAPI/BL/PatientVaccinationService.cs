@@ -12,6 +12,7 @@ namespace CoronaAPI.BL
             _context = context;
         }
 
+        //Insertion of new vaccine details for a specific patient
         public async Task <Result<PatientVaccination>> CreatePatientVaccinationAsync(PatientVaccination patientVaccination) 
         {
             if (await PatientVaccinationManager.PatientVaccinationsCountForPationtAsync(_context, patientVaccination.PatientId)>=4)
@@ -47,6 +48,7 @@ namespace CoronaAPI.BL
             }
         }
 
+        //Displaying details of all vaccines associated with a specific patient
         public async Task<IEnumerable<PatientVaccination>> GetPatientVaccinationsForPatientAsync(int patientId)
         {
             if (!await PatientManager.PatientExistsAsync(_context, patientId))
@@ -57,6 +59,7 @@ namespace CoronaAPI.BL
             return await PatientVaccinationManager.GetPatientVaccinationsForPatientAsync(_context, patientId);
         }
 
+        //Updating specific vaccination details of a specific patient
         public async Task<PatientVaccination> UpdatePatientVaccinationAsync(PatientVaccination patientVaccination, int vaccinationId)
         {
             if (vaccinationId != patientVaccination.Id)
@@ -72,6 +75,7 @@ namespace CoronaAPI.BL
             return await PatientVaccinationManager.UpdatePatientVaccinationAsync(_context, patientVaccination);
         }
 
+        //Deleting specific vaccine data
         public async Task DeletePatientVaccinationAsync(int vaccinationId)
         {
             PatientVaccination? patientVaccination = await PatientVaccinationManager.GetPatientVaccinationByIdAsync(_context, vaccinationId);

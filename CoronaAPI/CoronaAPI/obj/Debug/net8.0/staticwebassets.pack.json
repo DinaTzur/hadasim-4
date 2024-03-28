@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\UploadedImages\\209078898.png",
+      "PackagePath": "staticwebassets\\UploadedImages\\209078898.png"
+    },
+    {
       "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\patient.html",
       "PackagePath": "staticwebassets\\patient.html"
     },
