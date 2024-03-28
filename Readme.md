@@ -1,14 +1,20 @@
 CoronaAPI
+
 Description
+
 CoronaAPI is a system comprising server-side and client-side components, as well as a database, for managing a COVID repository for a large healthcare fund. The system displays members of the healthcare fund and manages the income records in the database. Additionally, the system stores key details regarding the COVID pandemic in the context of the healthcare fund's members.
+
 The exercise consists of two main parts: 1. Development of server-side, client-side, and bonus questions, and 2. Quality strategy (part2).
+
 Usage
+
 1.	Run the program.
 The URL address is: localhost:5006/patients.html
 You will see a window containing the list of patients registered in the HMO:
 
 
 
+![report](./SCREEN_SHOT/Picture1.png)
 
 
 
@@ -17,12 +23,17 @@ You will see a window containing the list of patients registered in the HMO:
 2.	To add a new patient to health fund, click "Add Patient".
 A new window will appear where you can enter patient information.
 Pay attention to enter correct details because there are input correctness checks on both client and server.
+
+![report](./SCREEN_SHOT/Picture2.png)
+
  
 To save the new patient's information, click ""Add".
 You can exit the "Add Patient" window without saving details by clicking the X on the top right of the popup window or by clicking "Cancel" at the bottom of the window. 
 
 
+![report](./SCREEN_SHOT/Picture3.png)
 
+![report](./SCREEN_SHOT/Picture4.png)
 
 
 
@@ -42,6 +53,7 @@ You can exit the "Add Patient" window without saving details by clicking the X o
 
 
 
+![report](./SCREEN_SHOT/Picture5.png)
 
 
 
@@ -62,6 +74,7 @@ All the patient's personal details appear under the heading "Patient Details".
 
 
 
+![report](./SCREEN_SHOT/Picture6.png)
 
 
 
@@ -83,6 +96,7 @@ To save the details, click "Save".
 
 
 
+![report](./SCREEN_SHOT/Picture7.png)
 
 
 
@@ -101,6 +115,7 @@ The dates can be updated following a new infection. In such a case it is necessa
 
 
 
+![report](./SCREEN_SHOT/Picture8.png)
 
 
 
@@ -119,6 +134,7 @@ To add vaccination details, click on "Add Vaccination".
 A new window will appear where you can fill in vaccine details: date of receiving the vaccine and manufacturing company.
 
 
+![report](./SCREEN_SHOT/Picture9.png)
 
 
 
@@ -143,6 +159,7 @@ You can exit the "Add Patient Vaccination" window without saving details by clic
 
 
 
+![report](./SCREEN_SHOT/Picture10.png)
 
 
 
@@ -164,6 +181,7 @@ After adding vaccination details, the details will appear in the table under the
 
 
 
+![report](./SCREEN_SHOT/Picture11.png)
 
 
 
@@ -183,6 +201,7 @@ After adding the first vaccination details to the patient, the patient was remov
 
 
 
+![report](./SCREEN_SHOT/Picture12.png)
 
 
 
@@ -202,10 +221,12 @@ After adding the first vaccination details to the patient, the patient was remov
 
 
 
+![report](./SCREEN_SHOT/Picture13.png)
 
 
 
 
+![report](./SCREEN_SHOT/Picture14.png)
 
 
 
@@ -241,6 +262,7 @@ To save the image, click on "Upload". The image will appear to the right of the 
 
 
 
+![report](./SCREEN_SHOT/Picture15.png)
 
 
 
