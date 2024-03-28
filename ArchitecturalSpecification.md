@@ -21,3 +21,5 @@ The model class have validations attributes, so when trying to update with not v
 Data Base – sql server. 
 
 The schema diagram is attached:
+
+![report](./SCREEN_SHOT/Picture16asd.png)
