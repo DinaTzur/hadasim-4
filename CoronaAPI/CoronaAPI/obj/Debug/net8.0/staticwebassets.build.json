@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BcMMRttUNX0VA2spBc7aLRSK1qnwJTN1eIMSX/GpFzc=",
+  "Hash": "8DEGtwMI6dmBfPtosKC85pRDBHaM3DUd4gDIDaatD/s=",
   "Source": "CoronaAPI",
   "BasePath": "_content/CoronaAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CoronaAPI\\wwwroot",
       "Source": "CoronaAPI",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\patient.html",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\patient.html",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "patient.html",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\patient.html"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\all.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\all.min.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/all.min.css",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\all.min.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\all.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\all.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/all.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\all.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\all.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\all.min.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/all.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\all.min.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\brands.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\brands.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/brands.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\brands.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\brands.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\brands.min.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/brands.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\brands.min.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\fontawesome.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\fontawesome.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/fontawesome.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\fontawesome.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\fontawesome.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\fontawesome.min.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/fontawesome.min.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\regular.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\regular.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/regular.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\regular.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\regular.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\regular.min.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/regular.min.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\regular.min.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\solid.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\solid.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/solid.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\solid.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\solid.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\solid.min.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/solid.min.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\solid.min.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\svg-with-js.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\svg-with-js.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/svg-with-js.css",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\svg-with-js.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\svg-with-js.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\svg-with-js.min.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/svg-with-js.min.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\svg-with-js.min.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-font-face.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-font-face.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/v4-font-face.css",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\v4-font-face.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-font-face.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-font-face.min.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/v4-font-face.min.css",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\v4-font-face.min.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-shims.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-shims.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/v4-shims.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\v4-shims.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-shims.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-shims.min.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/v4-shims.min.css",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\v4-shims.min.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v5-font-face.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v5-font-face.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/v5-font-face.css",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\v5-font-face.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v5-font-face.min.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v5-font-face.min.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/css/v5-font-face.min.css",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\css\\v5-font-face.min.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\StyleSheet.css",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\StyleSheet.css",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/StyleSheet.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\StyleSheet.css"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-brands-400.ttf",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-brands-400.woff2",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-regular-400.ttf",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-regular-400.woff2",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-solid-900.ttf",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-solid-900.woff2",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-v4compatibility.ttf",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-v4compatibility.ttf",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/webfonts/fa-v4compatibility.ttf",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\styles\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-v4compatibility.woff2",
+      "Identity": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-v4compatibility.woff2",
       "SourceId": "CoronaAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\",
       "BasePath": "_content/CoronaAPI",
       "RelativePath": "styles/webfonts/fa-v4compatibility.woff2",
       "AssetKind": "All",
@@ -566,82 +566,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\styles\\webfonts\\fa-v4compatibility.woff2"
-    },
-    {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\UploadedImages\\18",
-      "SourceId": "CoronaAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
-      "BasePath": "_content/CoronaAPI",
-      "RelativePath": "UploadedImages/18",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadedImages\\18"
-    },
-    {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\UploadedImages\\18..png",
-      "SourceId": "CoronaAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
-      "BasePath": "_content/CoronaAPI",
-      "RelativePath": "UploadedImages/18..png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadedImages\\18..png"
-    },
-    {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\UploadedImages\\18.png",
-      "SourceId": "CoronaAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
-      "BasePath": "_content/CoronaAPI",
-      "RelativePath": "UploadedImages/18.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadedImages\\18.png"
-    },
-    {
-      "Identity": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\UploadedImages\\333.png",
-      "SourceId": "CoronaAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\",
-      "BasePath": "_content/CoronaAPI",
-      "RelativePath": "UploadedImages/333.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadedImages\\333.png"
     }
   ]
 }

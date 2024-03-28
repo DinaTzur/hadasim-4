@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Patient Details</title>
+  <!-- Link to external CSS file -->
   <link href="styles/StyleSheet.css" rel="stylesheet" />
 </head>
 <body>
   <input type="button" value="Patient list" onclick="window.location.href='patients.html'" />
   <h1>Patient Details</h1>
+  <!-- Container for patient details and image upload -->
   <div style="display:table-row">
     <div style="display:table-cell; width:600px;">
       <div id="patientDetails"></div>
@@ -30,6 +32,7 @@
   </div>
     <br />
     </br>
+    <!-- Form for adding patient infections -->
     <h2>Patient Infections</h2>
     <div id="patientInfections">
       <form id="addInfectionForm" onsubmit="saveInfection(this)">
@@ -40,7 +43,7 @@
       </form>
     </div>
     <br />
-
+    <!-- Display patient vaccinations -->
     <h2>Patient Vaccinations</h2>
     <div id="patientVaccinations"></div>
     <br />
@@ -61,10 +64,12 @@
         </form>
       </div>
     </div>
+        
+    <!-- JavaScript code -->
     <script>
       const urlParams = new URLSearchParams(window.location.search);
       const patientId = urlParams.get('id');
-
+      // Function to fetch and display patient details
       async function fetchPatientDetails() {
         try {
           const response = await fetch(`api/Patients/${patientId}`);
@@ -86,6 +91,7 @@
         }
       }
 
+      // Function to fetch and display patient infections
       async function fetchPatientInfections() {
         try {
           const response = await fetch(`api/PatientInfections/${patientId}`);
@@ -102,6 +108,7 @@
         }
       }
 
+      // Function to fetch and display patient vaccinations
       async function fetchPatientVaccinations() {
         try {
           const response = await fetch(`api/PatientVaccinations/${patientId}`);
@@ -124,7 +131,7 @@
           console.error('Error fetching patient vaccinations:', error);
         }
       }
-
+      // Function to fetch and display manufacturers for vaccination selection
       async function fetchManufactors() {
         try {
           const response = await fetch('api/manufactors');
@@ -141,7 +148,7 @@
           console.error('Error fetching manufactors:', error);
         }
       }
-
+      // Function to save patient infection data
       async function saveInfection(form) {
         window.event.preventDefault();
 
@@ -179,7 +186,7 @@
           console.error('Error adding infection:', error);
         }
       }
-
+      // Function to save patient vaccination data
       async function savePatientVaccination() {
         window.event.preventDefault();
 
@@ -268,7 +275,7 @@
       fetchPatientVaccinations();
       fetchManufactors();
       loadPatientImage();
-
+      // Set maximum date for date inputs
       document.querySelector('#datePositive').max = new Date().toISOString().split("T")[0];
       document.querySelector('#dateRecovery').max = new Date().toISOString().split("T")[0];
       document.querySelector('#vaccinationDate').max = new Date().toISOString().split("T")[0];

@@ -1,135 +1,119 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\UploadedImages\\18",
-      "PackagePath": "staticwebassets\\UploadedImages"
-    },
-    {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\UploadedImages\\18..png",
-      "PackagePath": "staticwebassets\\UploadedImages\\18..png"
-    },
-    {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\UploadedImages\\18.png",
-      "PackagePath": "staticwebassets\\UploadedImages\\18.png"
-    },
-    {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\UploadedImages\\333.png",
-      "PackagePath": "staticwebassets\\UploadedImages\\333.png"
-    },
-    {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\patient.html",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\patient.html",
       "PackagePath": "staticwebassets\\patient.html"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\StyleSheet.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\StyleSheet.css",
       "PackagePath": "staticwebassets\\styles\\StyleSheet.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\all.min.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\all.min.css",
       "PackagePath": "staticwebassets\\styles\\all.min.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\all.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\all.css",
       "PackagePath": "staticwebassets\\styles\\css\\all.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\all.min.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\all.min.css",
       "PackagePath": "staticwebassets\\styles\\css\\all.min.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\brands.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\brands.css",
       "PackagePath": "staticwebassets\\styles\\css\\brands.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\brands.min.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\brands.min.css",
       "PackagePath": "staticwebassets\\styles\\css\\brands.min.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\fontawesome.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\fontawesome.css",
       "PackagePath": "staticwebassets\\styles\\css\\fontawesome.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\fontawesome.min.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\fontawesome.min.css",
       "PackagePath": "staticwebassets\\styles\\css\\fontawesome.min.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\regular.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\regular.css",
       "PackagePath": "staticwebassets\\styles\\css\\regular.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\regular.min.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\regular.min.css",
       "PackagePath": "staticwebassets\\styles\\css\\regular.min.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\solid.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\solid.css",
       "PackagePath": "staticwebassets\\styles\\css\\solid.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\solid.min.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\solid.min.css",
       "PackagePath": "staticwebassets\\styles\\css\\solid.min.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\svg-with-js.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\svg-with-js.css",
       "PackagePath": "staticwebassets\\styles\\css\\svg-with-js.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\svg-with-js.min.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\svg-with-js.min.css",
       "PackagePath": "staticwebassets\\styles\\css\\svg-with-js.min.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-font-face.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-font-face.css",
       "PackagePath": "staticwebassets\\styles\\css\\v4-font-face.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-font-face.min.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-font-face.min.css",
       "PackagePath": "staticwebassets\\styles\\css\\v4-font-face.min.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-shims.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-shims.css",
       "PackagePath": "staticwebassets\\styles\\css\\v4-shims.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-shims.min.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v4-shims.min.css",
       "PackagePath": "staticwebassets\\styles\\css\\v4-shims.min.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v5-font-face.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v5-font-face.css",
       "PackagePath": "staticwebassets\\styles\\css\\v5-font-face.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v5-font-face.min.css",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\css\\v5-font-face.min.css",
       "PackagePath": "staticwebassets\\styles\\css\\v5-font-face.min.css"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\styles\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\styles\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\styles\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\styles\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\styles\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\styles\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-v4compatibility.ttf",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-v4compatibility.ttf",
       "PackagePath": "staticwebassets\\styles\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Id": "C:\\Users\\david.alcalay\\Downloads\\repos\\repos\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-v4compatibility.woff2",
+      "Id": "C:\\Users\\user\\Documents\\GitHub\\hadasim-4\\CoronaAPI\\CoronaAPI\\wwwroot\\styles\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\styles\\webfonts\\fa-v4compatibility.woff2"
     },
     {

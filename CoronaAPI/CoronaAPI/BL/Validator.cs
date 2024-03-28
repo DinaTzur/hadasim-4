@@ -5,6 +5,7 @@ namespace CoronaAPI.BL
 {
     public class Validator
     {
+        //Checks the integrity of string type input
         public static bool ValidateString(StringValidateModel field)
         {
             if (field.Required && string.IsNullOrWhiteSpace(field.Value) )
@@ -34,16 +35,18 @@ namespace CoronaAPI.BL
             return true;
         }
 
+        //Checks that end date is later than start date
         public static bool ValidateDateRange(DateTime firstDate, DateTime lastDate)
         {
             return firstDate <= lastDate;
         }
 
+        //Checking the correctness of the input of an Israeli ID card
         public static bool IsValidIsraeliId(int id)
         {
             string idNumber = id.ToString().PadLeft(9, '0');
 
-            // Calculate the check digit using the specified algorithm
+            // Calculate the check digit
             int sum = 0;
             for (int i = 0; i < 9; i++)
             {

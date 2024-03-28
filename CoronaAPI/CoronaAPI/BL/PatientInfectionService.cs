@@ -10,8 +10,9 @@ namespace CoronaAPI.BL
         public PatientInfectionService(CoronaAPIContext context)
         {
             _context = context;
-        }  
+        }
 
+        //Create a patient's infection or update a patient's re-infection
         public async Task<Result<PatientInfection>> CreateOrUpdatePatientInfectionAsync(PatientInfection patientInfection)
         {
             if (!await PatientManager.PatientExistsAsync(_context, patientInfection.PatientId))
@@ -69,11 +70,13 @@ namespace CoronaAPI.BL
             }
         }
 
+        //Displaying infection data of a patient
         public async Task<PatientInfection?> GetPatientInfectionAsync(int patientId)
         {
             return await PatientInfectionManager.GetPatientInfectionByPatientIdAsync(_context, patientId);
         }
 
+        //Deletion of a patient's infection data
         public async Task DeletePatientInfectionAsync(int patientId)
         {
             PatientInfection? patientInfection = await PatientInfectionManager.GetPatientInfectionByPatientIdAsync(_context, patientId);
